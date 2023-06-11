@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  "@heroicons/react": ^2.0.18
   "@playwright/test": ^1.34.3
   "@storybook/addon-essentials": ^7.0.18
   "@storybook/addon-interactions": ^7.0.18
@@ -27,12 +28,14 @@ specifiers:
   prettier: 2.8.8
   react: 18.2.0
   react-dom: 18.2.0
+  solid: link:@heroicons/react/24/solid
   storybook: ^7.0.18
   tailwindcss: 3.3.2
   typescript: 5.1.3
   vitest: ^0.31.4
 
 dependencies:
+  "@heroicons/react": 2.0.18_react@18.2.0
   "@types/node": 20.2.5
   "@types/react": 18.2.8
   "@types/react-dom": 18.2.4
@@ -63,6 +66,7 @@ devDependencies:
   jsdom: 22.1.0
   postcss: 8.4.24
   prettier: 2.8.8
+  solid: link:@heroicons/react/24/solid
   storybook: 7.0.18
   vitest: 0.31.4_jsdom@22.1.0
 
@@ -4765,6 +4769,17 @@ packages:
         integrity: sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==,
       }
     dev: true
+
+  /@heroicons/react/2.0.18_react@18.2.0:
+    resolution:
+      {
+        integrity: sha512-7TyMjRrZZMBPa+/5Y8lN0iyvUU/01PeMGX2+RE7cQWpEUIcb4QotzUObFkJDejj/HUH4qjP/eQ0gzzKs2f+6Yw==,
+      }
+    peerDependencies:
+      react: ">= 16"
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@humanwhocodes/config-array/0.11.10:
     resolution:
